@@ -1,1 +1,11 @@
 # Pre-read options for reposurgeon go here.
+version 3.37
+
+branchify \
+tags/plugins/compare/* \
+tags/plugins/emenu/* \
+tags/plugins/macroview/* \
+tags/plugins/proclist/* \
+tags/unicode_far/* \
+unicode_far/tags/* \
+trunk tags/* branches/* *

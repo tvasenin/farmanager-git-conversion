@@ -1,1 +1,23 @@
 # Lift commands for farmanager
+
+# Last known SVN rev: 14346
+
+# Remove empty commit tags (mime)
+tag emptycommit-3480  delete
+tag emptycommit-7400  delete
+tag emptycommit-9597  delete
+tag emptycommit-9598  delete
+tag emptycommit-9615  delete
+tag emptycommit-9616  delete
+tag emptycommit-9618  delete
+tag emptycommit-9619  delete
+tag emptycommit-9620  delete
+tag emptycommit-9769  delete
+tag emptycommit-9780  delete
+tag emptycommit-9939  delete
+tag emptycommit-13178 delete
+tag emptycommit-13194 delete
+tag emptycommit-13378 delete
+tag emptycommit-13577 delete
+tag emptycommit-13646 delete
+tag emptycommit-13890 delete

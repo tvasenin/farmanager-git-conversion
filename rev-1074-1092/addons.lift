@@ -1,0 +1,7 @@
+version 3.37
+
+branchify misc/addons/trunk
+read <addons.svn
+authors read <../farmanager.map
+branch trunk rename master
+tag root delete

@@ -1,0 +1,8 @@
+version 3.37
+
+branchify plugins/trunk plugins/branches/ftp/*
+read <plugins.svn
+authors read <../farmanager.map
+branch root delete
+branch civilis delete # deliberately drop this branch for the current conversion
+branch trunk rename master

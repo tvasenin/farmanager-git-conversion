@@ -1,0 +1,7 @@
+version 3.37
+
+branchify enc/trunk enc/branches/* enc/tags/*
+read <enc.svn
+authors read <../farmanager.map
+branch root delete
+branch trunk rename master

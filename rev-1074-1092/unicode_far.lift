@@ -1,0 +1,11 @@
+version 3.37
+
+branchify  unicode_far/trunk unicode_far/branches/* unicode_far/tags/*
+read <unicode_far.svn
+authors read <../farmanager.map
+branch trunk rename master
+tag root delete
+tag 180_b301-root rename 180_b301
+tag 180_b302-root rename 180_b302
+tag 180_b303-root rename 180_b303
+tag 180_b304-root rename 180_b304

@@ -1,0 +1,8 @@
+version 3.37
+
+branchify misc/docs/trunk misc/docs/branches/*
+read <docs.svn
+authors read <../farmanager.map
+branch samlyukov delete # branch is became inactive before our revision span
+branch trunk rename master
+tag root delete

@@ -1,0 +1,54 @@
+# Lift commands for plugins
+version 3.37
+verbose 1
+
+
+branchify enc/trunk enc/branches/* enc/tags/*
+read <enc.svn
+authors read <../farmanager.map
+branch root delete
+branch trunk rename master
+prefer git
+rebuild enc
+
+
+branchify plugins/trunk plugins/branches/ftp/*
+read <plugins.svn
+authors read <../farmanager.map
+branch root delete
+branch civilis delete # deliberately drop this branch for the current conversion
+branch trunk rename master
+prefer git
+rebuild plugins
+
+
+branchify misc/addons/trunk
+read <addons.svn
+authors read <../farmanager.map
+branch trunk rename master
+tag root delete
+prefer git
+rebuild addons
+
+
+branchify misc/docs/trunk misc/docs/branches/*
+read <docs.svn
+authors read <../farmanager.map
+branch samlyukov delete # branch is became inactive before our revision span
+branch trunk rename master
+tag root delete
+prefer git
+rebuild docs
+
+
+branchify  unicode_far/trunk unicode_far/branches/* unicode_far/tags/*
+read <unicode_far.svn
+authors read <../farmanager.map
+branch trunk rename master
+tag root delete
+tag 180_b301-root rename 180_b301
+tag 180_b302-root rename 180_b302
+tag 180_b303-root rename 180_b303
+tag 180_b304-root rename 180_b304
+prefer git
+rebuild unicode_far
